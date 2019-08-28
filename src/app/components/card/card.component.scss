@@ -6,7 +6,8 @@
     height: 420px;
     align-items: center;
     background-color: rgb(194, 211, 243); 
-    position: static;   
+    position: static;  
+  
      
 }
 
@@ -25,4 +26,20 @@ button {
 
 button:hover {
     box-shadow: 5px 5px black;
+}
+
+.contents
+{
+    color: black;
+    
+}
+
+h3{
+    color: black
+}
+
+.card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
 }

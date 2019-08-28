@@ -11,6 +11,8 @@ import { SearchComponent } from './components/search/search.component';
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import {FlexLayoutModule} from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule
   
   ],
   providers: [],
